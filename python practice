@@ -1,0 +1,12 @@
+customer=["farhan" , 12345 , 23.567 , True ]
+print(customer)
+print(type(customer))
+customer.append("ali")
+print("after appending: " + str(customer))
+customer.insert(1,"lahore")
+print("after inserting: " + str(customer))
+print(customer[1])
+print(type(customer[2]))
+customer.remove(12345)
+popped_value = customer.pop(1)
+customer[0] = "my change value"

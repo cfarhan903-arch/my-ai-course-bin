@@ -1,0 +1,23 @@
+print("hello world")
+print("farhan")
+color=input("please enter your favorite color: ")
+print("your favorite color is " + color)
+print("hello-welcome-world")
+birth_year = input("Please enter your birth year: ")
+age = 2026 - int(birth_year)
+print("Your age is: " + str(age))
+print("the sum of 5 and 5 is",5+5)
+print("hello", end="")
+print("world")
+Name=input("please enter your first name: ")
+Name2=input("please enter your last name: ")
+print(Name + " " + Name2)
+name=input("Please enter your name: ")
+print("welcome - " + name)
+city=input("Please enter your city: ")
+country=input("Please enter your country: ")
+print(city + ", " + country)
+age =18
+print("your age is: " + str(age))
+
+
